@@ -1,0 +1,1 @@
+package learningspring.chap03.exception;public class WrongIdPasswordException extends RuntimeException {}
