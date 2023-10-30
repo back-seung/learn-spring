@@ -1,0 +1,1 @@
+package learningspring.chap08.exception;public class MemberNotFoundException extends RuntimeException {}

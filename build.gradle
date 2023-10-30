@@ -18,6 +18,11 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.aspectj:aspectjweaver'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'org.apache.tomcat:tomcat-jdbc'
+    implementation 'com.mysql:mysql-connector-j'
+    implementation 'ch.qos.logback:logback-classic'
+    implementation 'org.slf4j:slf4j-api:'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 }
