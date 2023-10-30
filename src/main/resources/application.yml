@@ -1,1 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/spring5fs?characterEncoding=utf8
+    username: spring5
+    password: spring5
 
